@@ -1,0 +1,77 @@
+*::selection {
+    background-color: none;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:  #3A98DA;
+}
+
+.timer {
+    height: 300px;
+    padding-top: 30px;
+    margin: 50px auto;
+}
+
+.timer-wrapper {
+    width: 155px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 40px auto;
+    position: relative;
+    background-color: rgb(211, 211, 211);
+    z-index: 0;
+}
+
+.timer-content {
+    width: 140px;
+    height: 140px;
+    background-color:white;    
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+#timer-button {
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.timer-loader {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color:rgb(54, 178, 187);
+    bottom: 0;
+    transition: 1.5s;
+}
+
+.timers-wrapper {
+   margin-top: 50px !important;
+}
+
+.item {
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+@media (max-width: 767px) {
+    .item {
+        width: 29% !important;
+    }
+}
