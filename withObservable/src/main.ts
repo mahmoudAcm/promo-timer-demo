@@ -7,7 +7,7 @@ import Clock from './timer';
 import record from './assets/records/audioblocks-02_spearfisher_emotional-podcast_title-sequence-shorter_inst_SClsHCkVD_NWM.mp3';
 
 const timers = [
-    { time: 0.1, icon: require('./assets/images/citrus.png')},
+    { time: 5, icon: require('./assets/images/citrus.png')},
     { time: 10, icon: require('./assets/images/mushroom.png') },
     { time: 15, icon: require('./assets/images/finocchio.png') },
     { time: 20, icon: require('./assets/images/asparagus.png') },
